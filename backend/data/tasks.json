@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Comprar víveres",
+        "description": "Ir al supermercado y comprar leche, pan y frutas.",
+        "status": false,
+        "createdAt": "2024-04-03T10:00:00Z"
+    },
+    {
+        "id": 2,
+        "title": "Hacer ejercicio",
+        "description": "Realizar una rutina de 30 minutos de entrenamiento.",
+        "status": false,
+        "createdAt": "2024-04-03T11:00:00Z"
+    },
+    {
+        "id": 3,
+        "title": "Responder correos",
+        "description": "Revisar la bandeja de entrada y responder los emails importantes.",
+        "status": true,
+        "createdAt": "2024-04-03T12:00:00Z"
+    },
+    {
+        "id": 4,
+        "title": "Llamar a Juan",
+        "description": "Hablar con Juan sobre el proyecto pendiente.",
+        "status": false,
+        "createdAt": "2024-04-03T13:00:00Z"
+    },
+    {
+        "id": 5,
+        "title": "Revisión del código",
+        "description": "Verificar y mejorar el código del nuevo módulo.",
+        "status": true,
+        "createdAt": "2024-04-03T14:00:00Z"
+    },
+    {
+        "id": 6,
+        "title": "Leer un libro",
+        "description": "Avanzar en la lectura de al menos 10 páginas.",
+        "status": false,
+        "createdAt": "2024-04-03T15:00:00Z"
+    },
+    {
+        "id": 7,
+        "title": "Hacer la cena",
+        "description": "Preparar una receta nueva para la cena.",
+        "status": false,
+        "createdAt": "2024-04-03T16:00:00Z"
+    },
+    {
+        "id": 8,
+        "title": "Actualizar el CV",
+        "description": "Agregar la última experiencia laboral al currículum.",
+        "status": true,
+        "createdAt": "2024-04-03T17:00:00Z"
+    },
+    {
+        "id": 9,
+        "title": "Organizar el escritorio",
+        "description": "Limpiar y ordenar el espacio de trabajo.",
+        "status": false,
+        "createdAt": "2024-04-03T18:00:00Z"
+    },
+    {
+        "id": 10,
+        "title": "Meditar",
+        "description": "Tomar 10 minutos para relajar la mente.",
+        "status": true,
+        "createdAt": "2024-04-03T19:00:00Z"
+    }
+]
