@@ -1,0 +1,23 @@
+{
+  "name": "ChallengeForIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianoAlonso/ChallengeForIT-MaximilianoAlonso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximilianoAlonso/ChallengeForIT-MaximilianoAlonso/issues"
+  },
+  "homepage": "https://github.com/MaximilianoAlonso/ChallengeForIT-MaximilianoAlonso#readme",
+  "description": ""
+}
