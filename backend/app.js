@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const express = require('express');
 const app = express();
 const routes = require('./routes/index')
@@ -10,6 +9,8 @@ const PORT = process.env.PORT;
 
 app.use(morgan('dev'));
 app.use(cors());
+
+/* Express.json viene a reemplazar a bodyParser (NO LO SABIA!!)*/
 app.use(express.json());
 app.use('/api', routes)
 

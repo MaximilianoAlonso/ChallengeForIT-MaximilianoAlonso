@@ -42,6 +42,7 @@ module.exports = {
     })
     return newTask
   },
+  /* modiicar tareas */
   updateTaskService: async ({ id, title, description, status }) => {
     const updated = await tasks.update({
       title,
@@ -58,6 +59,9 @@ module.exports = {
 
     return { message: 'Tarea actualizada correctamente' };
   },
+
+  /* eliminar tarea */
+
   deleteTaskService: async (id) => {
     const deleteTask = await tasks.destroy({ where: { id } })
     if (!deleteTask) {

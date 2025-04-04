@@ -31,7 +31,7 @@ module.exports = {
             const newTask = await createTask(req.body)
             res.status(201).json(newTask);
         } catch (error) {
-            res.status(500).json({ 
+            res.status(400).json({ 
             message: 'Error al crear la tarea', 
             error: error.message 
         });
@@ -42,7 +42,7 @@ module.exports = {
             const { id } = req.params;
             const updated = await updateTaskService({ id, ...req.body });
             res.json(updated);
-        } catch (err) {
+        } catch (error) {
             res.status(404).json({
              error: error.message 
             });
