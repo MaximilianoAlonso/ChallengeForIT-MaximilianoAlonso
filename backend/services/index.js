@@ -3,7 +3,7 @@ const tasks = db.Task
 
 module.exports = {
   /* todas las tareas    */
-  getAllTasks: async () => {
+  getAllTasksService: async () => {
     const allTasks = await tasks.findAll();
     const totalTasks = allTasks.length;
     const pendingTasks = allTasks.filter(task => task.status === false).length;
@@ -22,7 +22,7 @@ module.exports = {
 
   /* Tareas por id */
 
-  getTaskById: async (id) => {
+  getTaskByIdService: async (id) => {
     const taskById = await tasks.findByPk(id);
     if (!taskById) {
       throw new Error("La tarea no existe")
@@ -31,7 +31,7 @@ module.exports = {
   },
 
   /* crear tarea */
-  createTask: async ({ title, description }) => {
+  createTaskService: async ({ title, description }) => {
     if (!title || !description) {
       throw new Error('Faltan datos');
     }
@@ -42,7 +42,6 @@ module.exports = {
     })
     return newTask
   },
-  /* modiicar tareas */
   updateTaskService: async ({ id, title, description, status }) => {
     const updated = await tasks.update({
       title,
@@ -59,9 +58,6 @@ module.exports = {
 
     return { message: 'Tarea actualizada correctamente' };
   },
-
-  /* eliminar tarea */
-
   deleteTaskService: async (id) => {
     const deleteTask = await tasks.destroy({ where: { id } })
     if (!deleteTask) {

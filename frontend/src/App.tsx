@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:3000/api")
       .then(response => response.json())
-      .then(data => setTasks(data))
+      .then(data => setTasks(data.tasks))
       .catch(error => console.error("Error al obtener los datos:", error));
   }, []);
 
@@ -21,16 +21,17 @@ function App() {
     <div>
       <h1>Lista de Tareas</h1>
       <ul>
-        {tasks.map(task => (
-          <div  key={task.id}>
-          <li>{task.title}</li>
-          <li>{task.description}</li>
-          <li>{task.status === true ? "Pendiente": "Terminada"}</li>
-          <li>{task.createdAt}</li>
-          </div>
-         
-        ))}
-      </ul>
+  {tasks.map(task => (
+    <li key={task.id}>
+       <h4>{task.id} - {task.title}</h4>
+    
+      <p>{task.description}</p>
+      <p>{task.status === true ? "Pendiente" : "Terminada"}</p>
+      <p>{task.createdAt}</p>
+      <br />
+    </li>
+  ))}
+</ul>
     </div>
   );
 }

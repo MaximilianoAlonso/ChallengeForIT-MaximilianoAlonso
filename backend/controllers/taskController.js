@@ -1,9 +1,9 @@
-const { createTask, getTaskById, deleteTaskService, getAllTasks, updateTaskService } = require('../services/index.js')
+const { createTaskService, getTaskByIdService, deleteTaskService, getAllTasksService, updateTaskService } = require('../services/index.js')
 
 module.exports = {
     getAllTasks: async (req, res) => {
         try {
-            const task = await getAllTasks()
+            const task = await getAllTasksService()
             res.json(task)
 
         } catch (error) {
@@ -17,7 +17,7 @@ module.exports = {
       const {id} = req.params
 
         try {
-            const taskId = await getTaskById(id)
+            const taskId = await getTaskByIdService(id)
             res.json(taskId)
 
         } catch (error) {
@@ -28,10 +28,10 @@ module.exports = {
     },
     createTask: async (req, res) => {
         try {
-            const newTask = await createTask(req.body)
+            const newTask = await createTaskService(req.body)
             res.status(201).json(newTask);
         } catch (error) {
-            res.status(400).json({ 
+            res.status(500).json({ 
             message: 'Error al crear la tarea', 
             error: error.message 
         });
@@ -43,7 +43,7 @@ module.exports = {
             const updated = await updateTaskService({ id, ...req.body });
             res.json(updated);
         } catch (error) {
-            res.status(404).json({
+            res.status(500).json({
              error: error.message 
             });
         }
