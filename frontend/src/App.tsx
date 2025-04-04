@@ -1,27 +1,38 @@
-import { useState } from 'react'
+import { useEffect, useState } from "react";
 
-import './App.css'
-
+interface Task {
+  id: number;
+  title: string;
+  description: string;
+  status: boolean;
+  createdAt: string; 
+}
 function App() {
-  const [count, setCount] = useState(0)
+  const [tasks, setTasks] = useState<Task[]>([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/api")
+      .then(response => response.json())
+      .then(data => setTasks(data))
+      .catch(error => console.error("Error al obtener los datos:", error));
+  }, []);
 
   return (
-    <>
-  
-      
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <h1>Lista de Tareas</h1>
+      <ul>
+        {tasks.map(task => (
+          <div  key={task.id}>
+          <li>{task.title}</li>
+          <li>{task.description}</li>
+          <li>{task.status === true ? "Pendiente": "Terminada"}</li>
+          <li>{task.createdAt}</li>
+          </div>
+         
+        ))}
+      </ul>
+    </div>
+  );
 }
 
-export default App
+export default App;

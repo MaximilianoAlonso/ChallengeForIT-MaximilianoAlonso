@@ -21,11 +21,11 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false
       },
-      createdAt: { // ✅ QUEDA SOLO ESTE
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updatedAt: { // ✅ Se mantiene
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }

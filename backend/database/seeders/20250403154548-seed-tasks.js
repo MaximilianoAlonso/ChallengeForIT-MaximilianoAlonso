@@ -9,7 +9,7 @@ const taskJson = tasks.map(({ title, description, status }) => {
     description,
     status,
     createdAt: new Date(),
-    updatedAt: new Date() // ✅ Agregar updatedAt
+    updatedAt: new Date()
   };
 });
 
