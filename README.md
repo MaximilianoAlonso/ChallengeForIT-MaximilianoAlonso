@@ -26,28 +26,28 @@ Para el frontend se utilizó **React** con **Vite**, además de **Bootstrap** pa
 </a>
 
 ### Crear tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/crear-tarea.jpg" target="_blank">
+  <img src="./screenshots/crear-tarea.jpg" alt="Vista general" width="600" />
 </a>
 ### Tarea creada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/tarea-creada.jpg" target="_blank">
+  <img src="./screenshots/tarea-creada.jpg" alt="Vista general" width="600" />
 </a>
 
 ### Modiicar tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/modificar-tarea.jpg" target="_blank">
+  <img src="./screenshots/modificar-tarea.jpg" alt="Vista general" width="600" />
 </a>
 ### Tarea Modiicada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/tarea-actualizada.jpg" target="_blank">
+  <img src="./screenshots/tarea-actualizada.jpg" alt="Vista general" width="600" />
 </a>
 
 ### Eliminar tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/eliminar-tarea.jpg" target="_blank">
+  <img src="./screenshots/eliminar-tarea.jpg" alt="Vista general" width="600" />
 </a>
 ### Tarea Eliminada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/tarea-eliminada.jpg" target="_blank">
+  <img src="./screenshots/tarea-eliminada.jpg" alt="Vista general" width="600" />
 </a>
