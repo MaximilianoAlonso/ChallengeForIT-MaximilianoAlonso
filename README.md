@@ -21,8 +21,8 @@ Para el frontend se utilizó **React** con **Vite**, además de **Bootstrap** pa
 
 ### Vista general
 
-<a href="/screenshots/vista-general.png" target="_blank">
-  <img src="/screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="/screenshots/principal.jpg" target="_blank">
+  <img src="/screenshots/principal.jpg" alt="Vista general" width="600" />
 </a>
 
 ### Crear tarea
