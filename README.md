@@ -7,11 +7,11 @@ Para el frontend se utilizó **React** con **Vite**, además de **Bootstrap** pa
 
 ## Instrucciones
 
-(En la raíz se encuentra el archivo `package.json` con todo lo necesario para levantar tanto el backend como el frontend)
+_(En la raíz se encuentra el archivo `package.json` con todo lo necesario para levantar tanto el backend como el frontend)_
 
 ### Pasos para ejecutar el proyecto
 
-- Ejecutar `npm install` en la raiz del proyecto 
+- Ejecutar `npm install` en la raíz del proyecto  
   _(Instalará todas las dependencias del proyecto)_
 
 - Una vez instaladas, ejecutar `npm run dev`  
@@ -20,34 +20,36 @@ Para el frontend se utilizó **React** con **Vite**, además de **Bootstrap** pa
 ## Capturas de pantalla
 
 ### Vista general
-
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/principal.jpg" target="_blank">
+  <img src="./screenshots/principal.jpg" alt="Vista general" width="600" />
 </a>
 
 ### Crear tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
-</a>
-### Tarea creada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/crear-tarea.jpg" target="_blank">
+  <img src="./screenshots/crear-tarea.jpg" alt="Crear tarea" width="600" />
 </a>
 
-### Modiicar tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+### Tarea creada
+<a href="./screenshots/tarea-creada.jpg" target="_blank">
+  <img src="./screenshots/tarea-creada.jpg" alt="Tarea creada" width="600" />
 </a>
-### Tarea Modiicada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+
+### Modificar tarea
+<a href="./screenshots/modificar-tarea.jpg" target="_blank">
+  <img src="./screenshots/modificar-tarea.jpg" alt="Modificar tarea" width="600" />
+</a>
+
+### Tarea modificada
+<a href="./screenshots/tarea-actualizada.jpg" target="_blank">
+  <img src="./screenshots/tarea-actualizada.jpg" alt="Tarea modificada" width="600" />
 </a>
 
 ### Eliminar tarea
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+<a href="./screenshots/eliminar-tarea.jpg" target="_blank">
+  <img src="./screenshots/eliminar-tarea.jpg" alt="Eliminar tarea" width="600" />
 </a>
-### Tarea Eliminada
-<a href="./screenshots/vista-general.png" target="_blank">
-  <img src="./screenshots/vista-general.png" alt="Vista general" width="600" />
+
+### Tarea eliminada
+<a href="./screenshots/tarea-eliminada.jpg" target="_blank">
+  <img src="./screenshots/tarea-eliminada.jpg" alt="Tarea eliminada" width="600" />
 </a>
