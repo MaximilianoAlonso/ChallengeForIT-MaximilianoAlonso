@@ -35,8 +35,8 @@ _(En la raíz se encuentra el archivo `package.json` con todo lo necesario para 
 </a>
 
 ### Modificar tarea
-<a href="./screenshots/modificar-tarea.jpg" target="_blank">
-  <img src="./screenshots/modificar-tarea.jpg" alt="Modificar tarea" width="600" />
+<a href="./screenshots/modiicar-tarea.jpg" target="_blank">
+  <img src="./screenshots/modiicar-tarea.jpg" alt="Modificar tarea" width="600" />
 </a>
 
 ### Tarea modificada
